@@ -3,8 +3,6 @@ const bodyParser = require("body-parser");
 const request = require("request");
 const https = require("https");
 const app = express();
-const key = "90adbfb9730a608acc7cd04ac633106b-us21";
-const list_id = " 8dd275c365";
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended:true}));
 app.get("/",(req,res)=>{
